@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: url(https://i.ibb.co/f1LZWwC/background-wave-minimalist-modern-style-483537-5220.jpg) center/cover no-repeat;
+}
+
+.menu {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: rgb(255, 255, 255); /* Using a simpler color name */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    text-align: center;
+    color: white; /* Using a simpler color name */
+    margin-top: 150px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+#FTC {
+    height: 250px;
+    width: 250px;
+    padding: 25px;  
+}
+
+.Donations {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: right;
+    margin: auto;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+.openbtn:hover {
+    background-color: #444;
+}
+html, body {
+    overflow: hidden;
+    height: 100%;
+}
+    .content {
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center; 
+        height: 100vh; 
+        text-align: center; 
+    }
+    
+    #centered-image {
+        display: block; 
+    max-width: 90%; 
+    max-height: 50vh; 
+    margin: 20px auto 0; 
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    }

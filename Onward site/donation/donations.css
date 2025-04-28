@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: url(https://media.gettyimages.com/id/157572574/photo/water-ripple-over-sandy-beach.jpg?s=612x612&w=0&k=20&c=ycDKtkLh6fJOBYUTsgN2T603b-TvMi8eczLaSl4WMy4=) center/cover no-repeat;
+}
+
+.menu {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: rgb(255, 255, 255); /* Using a simpler color name */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    text-align: center;
+    color: rgb(255, 255, 255); /* Using a simpler color name */
+    margin-top: 150px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+#FTC {
+    height: 250px;
+    width: 250px;
+    padding: 25px;  
+}
+
+.Donations {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+} 
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+.openbtn:hover {
+    background-color: #444;
+}
+html, body {
+    overflow: hidden;
+    height: 100%;
+}   
